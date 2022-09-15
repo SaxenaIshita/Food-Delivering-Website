@@ -1,0 +1,281 @@
+body{
+  text-align: center;
+  font-family:"Rubik";
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Rubik";
+  margin-left: 1.5rem;
+  font-weight: 900;
+}
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+
+}
+.small-heading{
+  margin-top: 2.5rem;
+  text-align: left;
+  color: #F15412;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+.sustainable{
+  color:#95CD41;
+}
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+    font-weight: 900;
+}
+.section-sub-heading{
+  color:#F15412;
+  font-family: "Ubuntu";
+  font-weight:bold;
+}
+.container-fluid{
+  padding : 0 0;
+}
+/* sections */
+.colored-section{
+  background-color: #FFC93C;
+  color:black;
+}
+.white-section{
+background-color: white;
+color:black;
+}
+/* navbar */
+.navbar{
+  padding:0 0 1rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+  color:black;
+}
+.brand-image{
+  width:2.5rem;
+}
+.nav-item{
+  padding: 0 2.5px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  color:black;
+}
+/*download button*/
+.download-button{
+margin:5% 3% 5% 0;
+font-weight: bold;
+font-family: "Ubuntu";
+}
+.order-button{
+  color: black ;
+}
+/*title image*/
+#title.container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+.image-back{
+    padding-top: 3rem;
+    background-size: 100% 100%;
+}
+
+@media (max-width:1028px){
+#title{
+text-align:center;
+  }
+
+.big-heading{
+  line-height:1;
+  font-size:2rem;
+}
+.small-heading{
+  font-size: 1.1rem;
+}
+}
+
+#features{
+position:relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.feature-box{
+  padding:5%;
+}
+.icon{
+color: #FFC300;
+margin-bottom:1rem;
+}
+.icon:hover{
+  color:#F15412;
+}
+#testimonials{
+  background-color: white;
+ padding-bottom: 2rem;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+
+}
+.testimonial-text{
+  font-size:3rem;
+  line-height: 1.5;
+    font-weight: 900;
+    padding-top: 3rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+#menu{
+  background-color: #FFC300 ;
+  padding-bottom:3%;
+}
+.heading-menu{
+  text-align: left;
+  color:black;
+  margin-top: 0;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  font-weight: bold;
+}
+#pricing{
+  padding:100px;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-name{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.card-body{
+  padding:0;
+}
+.card-body p{
+  padding-bottom:0;
+  margin-bottom: 0;
+}
+.card-background{
+  background-size: 100% 100%;
+  margin-bottom: 0;
+
+}
+
+.pricing-btn{
+  margin-top:7rem;
+}
+/* cta */
+
+.cta-heading{
+    font-family: "Rubik";
+    margin-top: 3rem;
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+/* footer */
+
+#footer{
+  background-color: black;
+  padding-top:2.5rem;
+}
+.social-icon{
+  color: white;
+  margin:20px 10px;
+}
+/* other pages css */
+.about-us{
+  background-color: #FFFFDE;
+  padding-top: 1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.about-us p{
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+/* Menu */
+#Menu-Color{
+  background-color: #FFFFDE;
+}
+.box h1{
+
+  font-size: 3.5rem;
+  font-family: "Rubik";
+  font-weight: bold;
+    line-height: 1.5;
+
+}
+.menuItem{
+  text-align: left;
+  margin-left:1rem;
+  padding-bottom: 1.5rem;
+}
+.menu-label{
+  font-size: 2.5rem;
+  font-family: "Rubik";
+  font-weight: bold;
+    line-height: 1.5;
+    margin-left:1rem;
+}
+.item{
+  font-weight: bold;
+}
+input:checked+label {
+  text-decoration: line-through;
+  text-decoration-color: #A683E3;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
